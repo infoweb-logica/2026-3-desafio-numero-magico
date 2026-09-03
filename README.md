@@ -17,5 +17,10 @@ Se o jogador acertou o número, o chefe informa que o jogador ganhou.
 Caso o jogador errou o número, o chefe ajusta a faixa de menor e maior com o número informado.
 Até que alguém advinhe o número ou que a diferença entre o menor e maior número seja de 2.
 
+**Regras** iniciais
+- O número mágico deve ser gerado com `random.randint`
+- O número de particitantes deve ser informado
+- Cada participante tem um nome
+- 
 
 ---
