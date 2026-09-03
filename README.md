@@ -24,5 +24,16 @@ Até que alguém advinhe o número ou que a diferença entre o menor e maior nú
 - O número mágico deve ser gerado com `random.randint` no início de cada rodada
 - Ganha o jogador quem acertar o número, ou o chefe caso a diferença entre menor e maior seja de 2.
 
+**Regras da rodada**
+1. O chefe define o número mágico e passa a palavra para o jogador inicial
+2. O chefe define o jogador inicial como o "jogador da vez"
+3. O jogador da vez informa número
+4. O chefe informa
+   1. ou a nova faixa de valores
+   2. ou que o jogador foi o vencedor
+   3. ou que o chefe foi vencedor
+5. Caso o chefe informe a nova faixar de valores
+   1. O chefe define o próximo "jogador da vez"
+   2. Volta ao passo 3, para o "jogador da vez" jogar
 
 ---
