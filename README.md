@@ -18,9 +18,11 @@ Caso o jogador errou o número, o chefe ajusta a faixa de menor e maior com o n�
 Até que alguém advinhe o número ou que a diferença entre o menor e maior número seja de 2.
 
 **Regras** iniciais
-- O número mágico deve ser gerado com `random.randint`
-- O número de particitantes deve ser informado
-- Cada participante tem um nome
-- 
+- A faixa de valores deve ser informada no início
+- O número de particitantes deve ser informado no início
+- Cada participante tem um nome e deve ser informado no início
+- O número mágico deve ser gerado com `random.randint` no início de cada rodada
+- Ganha o jogador quem acertar o número, ou o chefe caso a diferença entre menor e maior seja de 2.
+
 
 ---
